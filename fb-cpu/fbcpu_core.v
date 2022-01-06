@@ -97,7 +97,8 @@ always@(*) begin
             
             4: begin
                 PCNext=PC;
-		durumNext=4; // burayı boş bırakırsak da doğru çalışacaktır.
+		durumNext=4; 
+		// burayı boş bırakırsak da doğru çalışacaktır.
             end
         endcase
     end
