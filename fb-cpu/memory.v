@@ -21,7 +21,7 @@ end
 
 initial begin
     if(TEST_CASE == 1) begin
-	   `include "testCase1.v"
+	   `include "testCase1.v" // eğer include doğru çalışmaz ise bu kısımlara include edilen dosya içerisindeki komutları yazmalıyız.
 	end else if(TEST_CASE == 2) begin
 	   `include "testCase2.v"
 	end else if(TEST_CASE == 3) begin
